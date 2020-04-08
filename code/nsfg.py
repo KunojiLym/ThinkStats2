@@ -7,12 +7,14 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 
 from __future__ import print_function, division
 
+import os
 import sys
 import numpy as np
 import thinkstats2
 
 from collections import defaultdict
 
+os.chdir('/mnt/c/users/vi_ci/downloads/metis/github/thinkstats2/code')
 
 def ReadFemResp(dct_file='2002FemResp.dct',
                 dat_file='2002FemResp.dat.gz',

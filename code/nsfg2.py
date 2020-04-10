@@ -5,7 +5,11 @@ Copyright 2014 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
+
 from __future__ import print_function
+
+import os
+os.chdir('/mnt/c/users/vi_ci/downloads/metis/github/thinkstats2/code')
 
 import numpy as np
 
